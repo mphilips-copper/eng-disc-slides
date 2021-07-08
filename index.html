@@ -18,6 +18,52 @@
 			<div class="slides">
 				<section>Slide 1</section>
 				<section>Slide 2</section>
+
+        <section>
+          <h1>Horizontal Slide</h1>
+        </section>
+        <section>
+          <section>
+            <h1>Vertical Slide 1</h1>
+            <p>Top slide<p>
+          </section>
+          <section>
+            <h1>Vertical Slide 2</h1>
+            <p>Bottom slide<p>
+          </section>
+        </section>
+
+        <section>
+          <pre>
+            <code data-line-numbers>def roles
+  roles = ['user']
+  roles << 'admin' if is_admin
+  roles << 'account_owner' if is_account_owner
+
+  roles
+end
+            </code>
+          </pre>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            # Markdown Slide 1
+            A paragraph with some text and a [link](https://en.wikipedia.org/wiki/Special:Random).
+            ---
+            ## Markdown Slide 2
+            * Foo
+            * Bar
+            * Baz
+          </textarea>
+        </section>
+
+        <section>
+          <img data-src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Parula_pitiayumi_-Piraju%2C_Sao_Paulo%2C_Brazil-8.jpg" width="320" height="229" style="width:320px;height:229px;">
+          <video>
+            <source data-src="https://upload.wikimedia.org/wikipedia/commons/8/87/Schlossbergbahn.webm" type="video/webm" width="480" height="270" style="width:480px;height:270px;" controls/>
+          </video>
+        </section>
 			</div>
 		</div>
 
