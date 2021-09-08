@@ -1,0 +1,28 @@
+/**********
+ * COLUMNS
+ **********/
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+/***************************
+ * LEFT ALIGN SOME ELEMENTS
+ ***************************/
+
+.reveal p, ul {
+  display: block;
+  text-align: left;
+}
+
+/*******************
+ * CHANGE FONT SIZE
+ *******************/
+
+.font-30 {
+  font-size: 30px;
+}

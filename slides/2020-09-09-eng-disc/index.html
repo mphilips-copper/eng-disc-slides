@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Engineering Discussions 2020-09-09</title>
+
+    <link rel="stylesheet" href="../../dist/reset.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <link rel="stylesheet" href="../../dist/theme/black.css">
+    <link rel="stylesheet" href="../../dist/local.css">
+    <link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <blockquote class="twitter-tweet" data-align="center" data-dnt="true"><p lang="en" dir="ltr">Tabs vs spaces?<br>Let me tell you about Fibonacci indentation ! Great way to reduce the number of nested loops 😄 <a href="https://t.co/3pWJGuxmNQ">pic.twitter.com/3pWJGuxmNQ</a></p>&mdash; Julien Dubois (@juliendubois) <a href="https://twitter.com/juliendubois/status/1257581874408497153?ref_src=twsrc%5Etfw">May 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <a href="https://github.com/samuelmarina/is-even">https://github.com/samuelmarina/is-even</a>
+          <pre>
+            <code data-line-numbers>function isEven(number) {
+    if (number === "even" || number === "Even" || number === "eVen" || number === "evEn" || number === "eveN" || number === "EVen" || number === "EvEn" || number === "EveN" || number === "eVEn" || number === "eVeN" || number == "evEN" || number === "eVEN" || number === "EvEN" || number === "EVeN" || number === "EVEn" || number === "EVEN") return true;
+    else if(number === 0 || number === "0" || number === "zero" || number === "Zero" || number === "ZERO") return true;
+    else if(number === 1 || number === "1" || number === "one" || number === "One" || number === "ONE") return false;
+    else if(number === 2 || number === "2" || number === "two" || number === "Two" || number === "TWO") return true;
+    else if(number === 3 || number === "3" || number === "three" || number === "Three" || number === "THREE") return false;
+    ...
+            </code>
+          </pre>
+          <div class="font-30">
+            <p>This package is 99.4 MB (!!!)</p>
+            <p>Lodash is 1.41 MB, React is 241 kB, Moment is 4.21 MB</p>
+          </div>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <blockquote class="twitter-tweet" data-align="center" data-dnt="true"><p lang="en" dir="ltr">Another day has passed without having to invert a binary tree</p>&mdash; Vlad Mihalcea (@vlad_mihalcea) <a href="https://twitter.com/vlad_mihalcea/status/1435458616904069120?ref_src=twsrc%5Etfw">September 8, 2021</a></blockquote>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <iframe id="reddit-embed" src="https://www.redditmedia.com/r/ProgrammerHumor/comments/p52da6/so_when_was_your_last_backup/?ref_source=embed&amp;ref=share&amp;embed=true&amp;showedits=false&amp;created=2021-09-08T22%3A43%3A52.906Z" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="527" width="640" scrolling="no"></iframe>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <div class="container">
+            <div class="col">
+              <blockquote class="twitter-tweet" data-align="center" data-dnt="true" width="352"><p lang="en" dir="ltr">So I learned of an amusing bug today:<br><br>Docker for Windows won&#39;t run if you have the Razer Synapse driver management tool running. <br><br>But the reason is the funny part... <a href="https://t.co/s42SeQ949z">pic.twitter.com/s42SeQ949z</a></p>&mdash; foone (@Foone) <a href="https://twitter.com/Foone/status/1229641258370355200?ref_src=twsrc%5Etfw">February 18, 2020</a></blockquote>
+            </div>
+            <div class="col">
+              <ul class="font-30">
+                <li>Both programs want only one copy of themselves to run</li>
+                <li>Enforced via a global mutex on the GUID of their .NET assembly</li>
+                <li>Implementation copied from <a href="https://stackoverflow.com/questions/502303/how-do-i-programmatically-get-the-guid-of-an-application-in-net-2-0/">Stack Overflow</a> containing the subtle bug of typing the assembly before getting its GUID</li>
+                <li>Both programs therefore think the GUID of the assembly type mutexed by the other program means they are already running</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        center: false,
+        hash: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </body>
+</html>
