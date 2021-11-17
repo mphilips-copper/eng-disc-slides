@@ -19,10 +19,22 @@
   text-align: left;
 }
 
+/*****************************
+ * CENTER ALIGN SOME ELEMENTS
+ *****************************/
+
+p.title-card, blockquote {
+  text-align: center;
+}
+
 /*******************
  * CHANGE FONT SIZE
  *******************/
 
 .font-30 {
   font-size: 30px;
+}
+
+.font-22 {
+  font-size: 22px;
 }
