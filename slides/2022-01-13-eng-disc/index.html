@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Engineering Discussions 2022-01-13</title>
+
+    <link rel="stylesheet" href="../../dist/reset.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <link rel="stylesheet" href="../../dist/theme/black.css">
+    <link rel="stylesheet" href="../../dist/local.css">
+    <link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <iframe id="reddit-embed" src="https://www.redditmedia.com/r/ProgrammerHumor/comments/s316m3/its_a_frontend_issue/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="527" width="640" scrolling="no"></iframe>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <div class="col">
+            <h3>JavaScript 😤</h3>
+            <pre class="r-stretch">
+              <code data-line-numbers data-trim class="font-22">
+                % node
+                Welcome to Node.js v12.22.3.
+                Type ".help" for more information.
+                > [1, 2, 3] + [4, 5, 6]
+                '1,2,34,5,6'
+              </code>
+            </pre>
+          </div>
+          <div class="col">
+            <h3>Ruby 🥳</h3>
+            <pre class="r-stretch">
+              <code data-line-numbers data-trim class="font-22">
+                % irb
+                2.6.9 :001 > [1, 2, 3] + [4, 5, 6]
+                 => [1, 2, 3, 4, 5, 6]
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <h3>colors.js</h3>
+          <p>
+            Library author recently committed an <a href="https://github.com/Marak/colors.js/commit/074a0f8ed0c31c35d13d28632bd8a049ff136fb6#r63165690">infinite loop.</a> No, like really, an INFINITE LOOP.
+          </p>
+          <pre class="r-stretch">
+            <code data-line-numbers data-trim class="font-22">
+              for (let i = 666; i < Infinity; i++;) {
+                if (i % 333) {
+                  // console.log('testing'.zalgo.rainbow)
+                }
+                console.log('testing testing testing testing testing testing testing'.zalgo)
+              }            </code>
+          </pre>
+          <p>This was intentional (and also affected faker.js) due to the author <a href="https://www.theverge.com/2022/1/9/22874949/developer-corrupts-open-source-libraries-projects-affected">not wanting large companies to consume their projects</a>.</p>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <iframe id="reddit-embed" src="https://www.redditmedia.com/r/ProgrammerHumor/comments/s034o9/my_favourite_pok%C3%A9mon_is_python/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" height="527" width="640" scrolling="no"></iframe>
+        </section>
+        <section>
+          <h2 class="r-fit-text">Waiting for attendees - please enjoy some engineering humor</h2>
+          <h3>The <a href="http://bofh.bjash.com/">Bastard Operator from Hell</a></h3>
+          <blockquote cite="http://bofh.bjash.com/bofh/bofh6.html">
+            <p>It's friday, so I get into work early, before lunch even. The phone rings. Shit!</p>
+            <p>I turn the page on the excuse sheet. "SOLAR FLARES" stares out at me. I'd better read up on that. Two minutes later I'm ready to answer the phone.</p>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        center: false,
+        hash: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </body>
+</html>
