@@ -27,4 +27,5 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Print info
-      run: echo ":large_blue_circle: (+43, -6) ALI-20462: Fix comparison error in GoogleContactLogic\nhttps://github.com/ProsperWorks/ALI/pull/${{ github.event.inputs.pull_request_number }}"
+      run: >-
+        echo ":large_blue_circle: (+43, -6) ALI-20462: Fix comparison error in GoogleContactLogic\nhttps://github.com/ProsperWorks/ALI/pull/${{ github.event.inputs.pull_request_number }}"
